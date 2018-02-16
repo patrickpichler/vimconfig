@@ -157,8 +157,8 @@ call minpac#add('mhinz/vim-grepper')
 call minpac#add('junegunn/fzf')
 call minpac#add('janko-m/vim-test')
 call minpac#add('sgur/vim-editorconfig')
-call minpac#add('autozimu/LanguageClient-neovim')
-call minpac#add('Shougo/deoplete.nvim', { 'branch': 'next', 'do': {-> system('bash install.sh')}})
+call minpac#add('autozimu/LanguageClient-neovim', { 'branch': 'next', 'do': {-> system('bash install.sh')}})
+call minpac#add('Shougo/deoplete.nvim')
 call minpac#add('neovimhaskell/haskell-vim')
 
 " ==============================================
